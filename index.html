@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Password Generator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        
+        <div class="generator">
+            <div class="generator__info">
+                <h2 class="generator__title">Passowrd Generator</h2>
+
+                <ul class="generator__list">
+                    <li class="generator__item">At least 1 lower case letter: <span>[a-z]</span></li>
+                    <li class="generator__item">At least 1 upper case letter: <span>[A-Z]</span></li>
+                    <li class="generator__item">At least 1 number: <span>[0-9]</span></li>
+                    <li class="generator__item">At least 1 special character: <span>[~, !, #, ...]</span></li>
+                    <li class="generator__item">Password Length: <span>12 characters</span></li>
+                </ul>
+            </div>
+
+            <button type="button" class="generator__button">Generate Password</button>
+
+            <div class="generator__password">
+                <p>Сreated Password</p>
+            </div>
+        </div>
+        
+        <script src="./js/script.js"></script>
+    </body>
+</html>
