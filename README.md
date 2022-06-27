@@ -1,5 +1,7 @@
 # Password-Generator
 
+### View: [Click](https://vanilla-js-password.netlify.app/)
+
 ## Table of Contents
 
 - [About](#about)
